@@ -5,27 +5,27 @@
 sidebar:
   position: right # position of the sidebar : left or right
   about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Mario Festersen
+  tagline: Data Scientist & Full Stack Developer
+  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  email: festersenmario@gmail.com
+  phone: +45 3022 2766
+  timezone: Copenhagen # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
+  #website: https://festersenmario.pythonanywhere.com/ # Include the full website URL, including "http://" or "https://".
+  linkedin: mariofestersen
+  #xing: alandoe
+  github: Rambuk01
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
+  #bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+  #twitter: '@jekyllrb'
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -37,228 +37,225 @@ sidebar:
   languages:
     title: Languages
     info:
-    - idiom: English
+    - idiom: Danish
       level: Native
 
-    - idiom: French
+    - idiom: English
       level: Professional
 
+    - idiom: German
+      level: Fluent
+
     - idiom: Spanish
-      level: Professional
+      level: Fluent
 
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Dancing(!!!)
       link:
 
 
-    - item: Snowboarding
+    - item: Squash / Paddle tennis
       link:
 
 
-    - item: Cooking
+    - item: Travels / Hiking
       link:
 
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Business- and economics-oriented Data Scientist with a background in
+    science teaching and several years of programming experience. Skilled in
+    full-stack development, machine learning, and statistics. Known for strong
+    problem-solving, communication and collaboration skills. Driven, and with a
+    passion for turning data into actionable insight.
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: MSc in Business and Economics Data Science
+    university: University of Southern Denmark
+    time: 2023 - 2025
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+      My education provided both theoretical depth and practical training across the core pillars of data science including machine learning, statistics, optimization, and programming.
+      Throughout the degree I worked on a wide range of topics and tools, from classical models and deep learning to data handling, databases, and applied NLP. 
+      The list below highlights some of the main areas
+    
+        - Applied Machine Learning: DT Ensembles, SVM/C, KNN, GLM 
+        - Deep Learning: FNN, RNN, CNN
+        - Data Mining and Machine Learning: Clustering, Frequent Pattern Mining
+        - Programming: Python & R
+        - Linear Algebra & Linear Integer Programming
+        - Statistics for Data Science
+        - Statistical Modelling: Classical ML
+        - Multivariate Statistical Analysis
+        - Databases: SQL, MySQL, PostgresQL
+        - Market Sentiment Analysis: Applied NLP and Transformers
+        - IT Security, Ethics & Privacy
+
+        Master Thesis: Machine learning and Fast Frequency Response in the danish electricity market
+
+  - degree: Elementary School Teacher
+    university: University College of Southern Denmark (UCSyd)
+    time: 2010 - 2015
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Details about this education can be provided upon request
+        - Mathematics
+        - Physics/Chemistry
+        - Social Studies
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Full-stack Web Developer
+    time: 2023 - Present
+    company: Flexbuy Technologies A/S
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Worked as a student developer with continued freelance involvement after graduation. 
+      Contributed to the development and maintenance of a custom WordPress and WooCommerce platform, 
+      with a focus on backend logic, API development, and automation of key business workflows.
+        - Front-end: HTML, CSS, JS and jQuery
+        - Back-end: PHP, MySQL in a WordPress and WooCommerce setting.
+        - Version-control: Git & GitHub
 
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+  - role: Science Teacher
+    time: 2018 - 2023
+    company: Scienceefterskolen Nordborg Slot
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      Taught both core science subjects and elective tech-focused modules at a STEM-oriented boarding school.
+        - Physics, chemistry, and mathematics (9th grade and high school level)
+        - Programming: Python, C#, JavaScript
+        - Web development: HTML, CSS, PHP, WordPress
+        - Game development with Unity and C#
+        - Robotics with LEGO Mindstorms
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+# certifications:
+#   title: Certifications
+#   list:
+#   - name: CV Builder
+#     start: 2020
+#     end: 2021
+#     organization: Microsoft
+#     credentialid: 111-222
+#     credentialurl: www.google.com
+#     credentialname: Google
+#     details: |
+#       Details about cert. Lorem ipsum dolor sit amet, consectetur
+#       adipiscing elit.
+#       Nullam eget orci purus. Nullam ultrices neque nibh.
+#       Aenean fermentum, felis vulputate suscipit accumsan,
+#       sem enim bibendum augue, sed convallis arcu lacus at dui.
+#       Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#       Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#       Praesent venenatis erat non augue suscipit consectetur.
+
+#       Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#       fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#       justo diam viverra velit, sed rhoncus leo leo eu justo.
+#       Suspendisse placerat risus ante, sed porta nisi blandit at.
+#   - name: Git learning
+#     start: 2019
+#     end:
+#     organization: Microsoft
+#     credentialid: 111-222
+#     credentialurl: www.github.com
+#     credentialname: Github
+#     details: |
+#       Older certification. Lorem ipsum dolor sit amet, consectetur
+#       adipiscing elit.
+#       Nullam eget orci purus. Nullam ultrices neque nibh.
+#       Aenean fermentum, felis vulputate suscipit accumsan,
+#       sem enim bibendum augue, sed convallis arcu lacus at dui.
+#       Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#       Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#       Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
   title: Projects
   intro: >
     You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-  - title: Velocity
+  - title: Stock Market Sentiment Analysis via Social Media Signals
     link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    tagline: "Market Sentiment Analysis Exam: Analyzed the relationship between Reddit discussions and stock prices during the GameStop short-squeeze event. Combined time series data with NLP techniques to study sentiment and market movement."
 
-  - title: DevStudio
+  - title: Customer Segmentation for Targeted Advertising using Clustering
     link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+    tagline: "A student project using a real-world open-source customer dataset to segment user groups for targeted advertising. Applied unsupervised learning techniques to uncover actionable patterns in customer behavior."
 
-  - title: Tempo
+  - title: Interactive Visualization of Copenhagen Airbnb Listings
     link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    tagline: "Built an interactive dashboard using Dash/Plotly to explore Airbnb listings in Copenhagen. The tool provides prospective and current hosts with insights into pricing, availability, and location patterns."
 
-  - title: Atom
+  - title: Android & Web App for Wind Turbine Maintenance Documentation
     link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    tagline: "Freelance project to streamline wind turbine maintenance documentation. Replaced manual photo handling with a custom Android and web-based system that captured, tagged, and uploaded images, then automatically inserted them into the company's maintenance Word template."
 
-  - title: Delta
+  - title: Cancer Detection with Deep Learning Image Classification
     link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    tagline: "Used the PCam dataset to build image classification models for cancer detection. Applied transfer learning with convolutional neural networks to classify histopathologic image data."
 
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# oss:
+#   title: OSS Contributions
+#   intro: >
+#     You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#   contributions:
+#   - title: Tempo
+#     link: "#"
+#     tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#   - title: Atom
+#     link: "#"
+#     tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#   - title: Delta
+#     link: "#"
+#     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+# publications:
+#   title: Publications
+#   intro: |
+#     You can list your publications in this section. Lorem ipsum dolor sit
+#     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#     bibendum fringilla a eu lectus.
+#   papers:
+#   - title: The Art of Computer Programming
+#     link: "#"
+#     authors: Donald E. Knuth
+#     conference: Addison-Wesley, 1968
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#   - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#     link: "#"
+#     authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#     conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+#   - title: A syntax directed compiler for Algol 60
+#     link: "#"
+#     authors: Edgar T. Irons
+#     conference: "Comm. ACM 4 (1961), 51–55"
 
 recommendations:
   title: Recommendations
   list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
+  - person: Christian Møller Dahl
+    email: cmd@sam.sdu.dk
+    phone: +45 6550 3267
+    role: Professor of Economics, Co-founder & COO at Rooftop Analytics ApS
     recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
+      Mario made an exceptional contribution to the DS807 Applied Machine Learning course. 
+      His contribution raised the overall level of the class, and the final project and his thesis was both ambitious and well executed. 
+      
+  - person: Jesper Lytzen
+    email: jl@scienceefterskolen.dk
+    phone: +45 2261 4222
+    role: Mid-level Manager & Teacher
     recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+      I worked closely with Mario as a colleague at Scienceefterskolen Nordborg Slot. 
+      He was a great collaborator, always engaged, technically skilled, and easy to work with. 
+      Our teamwork was built on mutual respect, good humor, and strong professional dialogue.
 
 skills:
   title: Skills &amp; Proficiency
