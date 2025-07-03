@@ -16,7 +16,7 @@ sidebar:
   email: festersenmario@gmail.com
   phone: +45 3022 2766
   timezone: Copenhagen # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
+  citizenship: Danish
   #website: https://festersenmario.pythonanywhere.com/ # Include the full website URL, including "http://" or "https://".
   linkedin: mariofestersen
   #xing: alandoe
@@ -275,7 +275,7 @@ skills:
   - name: Git & Version Control
     level: 90%
 
-  - name: Machine Learning, Time Series, Classification, Regression
+  - name: Machine Learning (classification, regression, forecasting, anomaly detection)
     level: 90%
 
   - name: Deep Learning (CNN, RNN, Transformers)
@@ -286,6 +286,9 @@ skills:
 
   - name: Data Visualization (Matplotlib, Seaborn, Dash/Plotly)
     level: 80%
+  
+  - name: Databricks (Spark, notebooks, Delta Live Tables – ongoing)
+    level: 50%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
