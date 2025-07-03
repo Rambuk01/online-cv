@@ -4,7 +4,7 @@
 
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
@@ -67,11 +67,13 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Business- and economics-oriented Data Scientist with a background in
+    <b>Based in Southern Denmark, but fully flexible for hybrid or remote roles across Denmark.</b>
+    <br>Business- and economics-oriented Data Scientist with a background in
     science teaching and several years of programming experience. Skilled in
     full-stack development, machine learning, and statistics. Known for strong
     problem-solving, communication and collaboration skills. Driven, and with a
     passion for turning data into actionable insight.
+    
 
 education:
   title: Education
@@ -176,7 +178,7 @@ experiences:
 projects:
   title: Projects
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    A selection of academic, freelance, and personal projects showcasing my skills in machine learning, data analysis, and software development.
   assignments:
   - title: Stock Market Sentiment Analysis via Social Media Signals
     link: "#hook"
@@ -246,7 +248,7 @@ recommendations:
     role: Professor of Economics, Co-founder & COO at Rooftop Analytics ApS
     recommendation: |
       Mario made an exceptional contribution to the DS807 Applied Machine Learning course. 
-      His contribution raised the overall level of the class, and the final project and his thesis was both ambitious and well executed. 
+      His project work raised the overall level of the class. His master's was an ambitious and well-executed project in time series forecasting and deep learning. 
       
   - person: Jesper Lytzen
     email: jl@scienceefterskolen.dk
@@ -261,23 +263,29 @@ skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
+  - name: Python (Pandas, Scikit-learn, PyTorch, Tensorflow)
     level: 95%
 
-  - name: Ruby on Rails
+  - name: R (tidyverse, ggplot2, caret)
+    level: 80%
+
+  - name: SQL (PostgreSQL, MySQL)
+    level: 90%
+
+  - name: Git & Version Control
+    level: 90%
+
+  - name: Machine Learning, Time Series, Classification, Regression
+    level: 90%
+
+  - name: Deep Learning (CNN, RNN, Transformers)
     level: 85%
 
-  - name: Sketch & Photoshop
-    level: 60%
+  - name: Large Language Models (API, open-source, deployment)
+    level: 70%
+
+  - name: Data Visualization (Matplotlib, Seaborn, Dash/Plotly)
+    level: 80%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
